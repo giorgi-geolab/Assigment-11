@@ -47,6 +47,8 @@ form > textarea {
   border: 2px solid #d4d3d3;
   background-color: #f8f8f8;
   resize: none;
+  padding-top: 23px;
+  padding-left: 21px;
   box-sizing: border-box;
 }
 
@@ -54,10 +56,9 @@ form > textarea::placeholder {
   font-weight: 700;
   font-size: 14px;
   line-height: 16.1px;
-  padding-top: 23px;
-  padding-left: 21px;
   color: #99999a;
 }
+
 #values-div {
   height: 298px;
   display: flex;
@@ -71,6 +72,8 @@ form > textarea::placeholder {
   border: 2px solid #d4d3d3;
   background-color: #f8f8f8;
   margin-top: 20px;
+  padding-left: 19px;
+  box-sizing: border-box;
 }
 
 #values-div > input::placeholder {
@@ -78,7 +81,6 @@ form > textarea::placeholder {
   font-size: 14px;
   line-height: 16.1px;
   color: #99999a;
-  padding-left: 19px;
 }
 
 #values-div > button {
@@ -170,3 +172,135 @@ section div p {
 
 /* FOOTER */
 
+footer {
+  width: 100vw;
+  height: 372px;
+  display: flex;
+  background-color: #000000;
+  margin-top: 39px;
+  padding-top: 63px;
+  box-sizing: border-box;
+  justify-content: space-around;
+}
+
+#footer-first-div > h1 {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 29.9px;
+  color: #ffffff;
+}
+
+#footer-first-div > p {
+  width: 295px;
+  height: 80px;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 19.55px;
+  color: #99999a;
+  margin-top: 23px;
+}
+
+#footer-first-div-imgs-div {
+  display: flex;
+  margin-top: 23px;
+  align-items: center;
+}
+
+#fb {
+  width: 46px;
+  height: 46px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 7px;
+}
+
+#tw {
+  width: 38px;
+  height: 38px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 7px;
+}
+
+#g {
+  width: 42px;
+  height: 42px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+#footer-second-section {
+  display: flex;
+  margin-right: 33px;
+}
+
+#footer-second-div {
+  display: flex;
+  flex-direction: column;
+  margin-right: 86px;
+}
+
+.footer-links-header {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 24.15px;
+  color: #ffffff;
+}
+
+footer div ul li a {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 19.55px;
+  color: #5863e3;
+  text-decoration: none;
+}
+
+footer div ul li {
+  margin-top: 9px;
+}
+
+footer div ul li:nth-child(1) {
+  margin: 0;
+}
+
+footer div ul {
+  margin-top: 32px;
+}
+
+#footer-third-div {
+  display: flex;
+  flex-direction: column;
+  margin-right: 124px;
+}
+
+#footer-fourth-div-1div {
+  margin-top: 32px;
+}
+
+#footer-fourth-div-1div > img {
+  width: 21px;
+  height: 15px;
+  object-fit: cover;
+  padding: 4px 14px 0 0;
+}
+
+#footer-fourth-div-2div > img {
+  width: 27px;
+  height: 22px;
+  object-fit: cover;
+  margin: 15px 12px 1px -4px;
+}
+
+#footer-fourth-div-3div img {
+  width: 13px;
+  height: 22px;
+  object-fit: cover;
+  margin: 18px 15px 0px 4px;
+}
+
+#footer-fourth-div div span {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 19.55px;
+  color: #ffffff;
+}
